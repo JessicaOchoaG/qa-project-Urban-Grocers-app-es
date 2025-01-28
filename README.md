@@ -5,10 +5,14 @@
  El proyecto tiene como objetivo comprobar como la aplicación Urban Grocers crea kits de productos. Dentro de las listas de comprobación,
  una de ellas es para el campo "name" en la solicitud de creación de un kit de productos. Mi tarea realizada fue automatizar las pruebas desde esta lista de comprobación, cargar el código en GitHub y enviar el repositorio a revisión.
 
+
+
 - **Fuente de documentación utilizada**
 
 La documentación que se utilizó para estudiar la API fue **apiDOC** de la aplicación de Urban Grocers: 
 <the url of the launched server>/docs/ 
+
+
 
 - **Descripción de las Tecnologías**
 
@@ -24,9 +28,11 @@ La documentación que se utilizó para estudiar la API fue **apiDOC** de la apli
 
 **GitHub**: Es una plataforma web de desarrollo colaborativo que utiliza Git, un sistema de control de versiones distribuido, para almacenar, gestionar y compartir código fuente.
 
+
+
 - **Instrucciones de las Instalaciones realizadas**
    
-a) Cloné el repositorio del proyecto a PyCharm, desde git bash:\ 
+a) Cloné el repositorio del proyecto a PyCharm, desde git bash:\
      git clone <URL DEL REPOSITORIO>
 
 b) Navegar al directorio del proyecto, desde git bash:\
@@ -38,7 +44,7 @@ c) Se instaló la biblioteca REQUEST desde la terminal:\
 d) Se intaló el framework PYTEST desde la terminal:\
      pip install pytest
 
- Para ejecutar pytest en la terminal se utilizó el comando: pytest -v
+     Para ejecutar pytest en la terminal se utiliza el comando: pytest -v
 
 
  
