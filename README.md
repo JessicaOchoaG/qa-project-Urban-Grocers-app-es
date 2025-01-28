@@ -24,14 +24,21 @@ La documentación que se utilizó para estudiar la API fue **apiDOC** de la apli
 
 **GitHub**: Es una plataforma web de desarrollo colaborativo que utiliza Git, un sistema de control de versiones distribuido, para almacenar, gestionar y compartir código fuente.
 
-- **Instrucciones de unas de las Instalaciones realizadas**
+- **Instrucciones de las Instalaciones realizadas**
    
-* Cloné el repositorio del proyecto a PyCharm, desde git bash: 
+a) Cloné el repositorio del proyecto a PyCharm, desde git bash:\ 
      git clone <URL DEL REPOSITORIO>
 
-* Se instaló la biblioteca REQUEST desde la terminal:
+b) Navegar al directorio del proyecto, desde git bash:\
+     cd qa-project-Urban-Grocers-app-es
+
+c) Se instaló la biblioteca REQUEST desde la terminal:\
      pip install requests
 
-* Se intaló el framework PYTEST desde la terminal:
+d) Se intaló el framework PYTEST desde la terminal:\
      pip install pytest
+
+ Para ejecutar pytest en la terminal se utilizó el comando: pytest -v
+
+
  
