@@ -12,11 +12,16 @@ La documentación que se utilizó para estudiar la API fue **apiDOC** de la apli
 
 - **Descripción de las Tecnologías**
 
-**Python**: Principal lenguaje de programación para el proyecto
+**Python**: Principal lenguaje de programación para el proyecto. 
+
 **Pycharm**: Entorno de desarrollo integrado (IDE)diseñado específicamente para el desarrollo en Python.
+
 **Pytest**: Es un framework de testing para Python que se utiliza para escribir y ejecutar pruebas de manera sencilla y eficiente.
-**Requests**: Biblioteca de Python para realizar solicitudes
+
+**Requests**: Biblioteca de Python para realizar solicitudes.
+
 **Git Bash**: Aplicación que proporciona una interfaz de línea de comandos (CLI) para interactuar con Git en sistemas operativos Windows.
+
 **GitHub**: Es una plataforma web de desarrollo colaborativo que utiliza Git, un sistema de control de versiones distribuido, para almacenar, gestionar y compartir código fuente.
 
 - **Instrucciones de unas de las Instalaciones realizadas**
@@ -29,5 +34,4 @@ La documentación que se utilizó para estudiar la API fue **apiDOC** de la apli
 
 * Se intaló el framework PYTEST desde la terminal:
      pip install pytest
-
-
+ 
