@@ -1,50 +1,83 @@
-# PROYECTO SPRINT 7 PRUEBAS PARA EL PARAMETRO NAME al crear un KIT
+# 🧪 Proyecto de Automatización API: **Pruebas del parámetro `name` al crear un Kit - Urban Grocers**
 
-- **Descripción del Proyecto**
+## 📌 Descripción del Proyecto
 
- El proyecto tiene como objetivo comprobar como la aplicación Urban Grocers crea kits de productos. Dentro de las listas de comprobación,
- una de ellas es para el campo "name" en la solicitud de creación de un kit de productos. Mi tarea realizada fue automatizar las pruebas desde esta lista de comprobación, cargar el código en GitHub y enviar el repositorio a revisión.
+Este proyecto tiene como objetivo automatizar pruebas para verificar el comportamiento del parámetro `name` en la creación de kits de productos dentro de la aplicación **Urban Grocers**.
 
+Las pruebas automatizadas fueron diseñadas a partir de una lista de comprobación específica y tienen como propósito asegurar que el campo `name` cumpla con los requisitos definidos por la API de la aplicación.
 
+Mi tarea consistió en:
+- Automatizar los escenarios de prueba desde cero
+- Subir el código a GitHub
+- Preparar el repositorio para revisión y entrega
 
-- **Fuente de documentación utilizada**
+---
 
-La documentación que se utilizó para estudiar la API fue **apiDOC** de la aplicación de Urban Grocers: 
-<the url of the launched server>/docs/ 
+## 📚 Documentación Utilizada
 
+Se utilizó la documentación técnica **apiDoc** expuesta por la aplicación Urban Grocers, accesible en:
 
+```
+/docs/
+```
 
-- **Descripción de las Tecnologías**
+---
 
-**Python**: Principal lenguaje de programación para el proyecto. 
+## ✅ Lista de Comprobación para el Campo `name`
 
-**Pycharm**: Entorno de desarrollo integrado (IDE)diseñado específicamente para el desarrollo en Python.
+- [x] Validar creación con nombre válido
+- [x] Validar comportamiento con nombre vacío
+- [x] Probar nombres con caracteres especiales
+- [x] Probar longitud máxima permitida
+- [x] Verificar errores con tipos de datos incorrectos
 
-**Pytest**: Es un framework de testing para Python que se utiliza para escribir y ejecutar pruebas de manera sencilla y eficiente.
+---
 
-**Requests**: Biblioteca de Python para realizar solicitudes.
+## 🛠️ Tecnologías Utilizadas
 
-**Git Bash**: Aplicación que proporciona una interfaz de línea de comandos (CLI) para interactuar con Git en sistemas operativos Windows.
+| Herramienta  | Descripción |
+|--------------|-------------|
+| **Python**   | Lenguaje principal para el desarrollo de pruebas |
+| **PyCharm**  | Entorno de desarrollo (IDE) para Python |
+| **Pytest**   | Framework para estructurar y ejecutar pruebas |
+| **Requests** | Biblioteca de Python para hacer solicitudes HTTP |
+| **Git Bash** | CLI para interacción con Git |
+| **GitHub**   | Plataforma de control de versiones y colaboración |
 
-**GitHub**: Es una plataforma web de desarrollo colaborativo que utiliza Git, un sistema de control de versiones distribuido, para almacenar, gestionar y compartir código fuente.
+---
 
+## ⚙️ Instrucciones de Instalación
 
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/JessicaOchoaG/qa-project-Urban-Grocers-app-es.git
+   ```
 
-- **Instrucciones de las Instalaciones realizadas**
-   
-a) Cloné el repositorio del proyecto a PyCharm, desde git bash:\
-     git clone <URL DEL REPOSITORIO>
+2. Acceder al proyecto:
+   ```bash
+   cd qa-project-Urban-Grocers-app-es
+   ```
 
-b) Navegar al directorio del proyecto, desde git bash:\
-     cd qa-project-Urban-Grocers-app-es
+3. Instalar dependencias necesarias:
+   ```bash
+   pip install requests
+   pip install pytest
+   ```
 
-c) Se instaló la biblioteca REQUEST desde la terminal:\
-     pip install requests
+---
 
-d) Se intaló el framework PYTEST desde la terminal:\
-     pip install pytest
+## ▶️ Ejecución de Pruebas
 
-     Para ejecutar pytest en la terminal se utiliza el comando: pytest -v
+Para correr las pruebas desde la terminal, usa el siguiente comando:
+
+```bash
+pytest -v
+```
+
+---
+
+Con este proyecto se contribuye a garantizar la calidad de la API de Urban Grocers mediante pruebas automatizadas orientadas al campo `name`. 🚀
+
 
 
  
